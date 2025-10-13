@@ -6,13 +6,13 @@ NextQuad is a verified campus community platform that connects NYU students with
 ## Team Members
 - **[Polaris Wu](https://github.com/Polaris-Wu450)**
 - **[Xiaohan Zhou](https://github.com/XiaohanZhou711)**
-- **[Member 3](https://github.com/username)**
-- **[Member 4](https://github.com/username)**
-- **[Member 5](https://github.com/username)**
+- **[Laura Liu](https://github.com/lauraliu518)**
+- **[Milan Engineer](https://github.com/MilanEngineer)**
+- **[Haroon Shafi](https://github.com/haroonshafi)**
 
 **Current Sprint Roles (Sprint 0):**
-- Scrum Master: [Name]
-- Product Owner: [Name]
+- Scrum Master: [Polaris Wu](https://github.com/Polaris-Wu450)
+- Product Owner: [Xiaohan Zhou](https://github.com/XiaohanZhou711)
 
 ## Project History
 NextQuad was born from the common frustration of NYU students struggling to:
@@ -44,12 +44,11 @@ Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our team wor
 - Sprint Planning
 
 ## Technology Stack
-[Will be finalized in Sprint 0]
 
-Frontend: React
-Backend: Node.js/Express
-Database: MongoDB
-Maps API: [TBD]
+- Frontend: React
+- Backend: Node.js/Express
+- Database: MongoDB
+- Maps API: [TBD]
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see [LICENSE.md](./LICENSE.md)
