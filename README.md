@@ -3,14 +3,15 @@
 ## Product Vision Statement
 NextQuad is a verified campus community platform that connects NYU students with study spaces and each other, creating a safe, efficient environment for academic collaboration and campus life management.
 
-## Team Members
+## Team Roles
+**Developers**
 - **[Polaris Wu](https://github.com/Polaris-Wu450)**
 - **[Xiaohan Zhou](https://github.com/XiaohanZhou711)**
 - **[Laura Liu](https://github.com/lauraliu518)**
 - **[Milan Engineer](https://github.com/MilanEngineer)**
 - **[Haroon Shafi](https://github.com/haroonshafi)**
 
-**Current Sprint Roles (Sprint 0):**
+**Sprint 0 Roles:**
 - Scrum Master: [Polaris Wu](https://github.com/Polaris-Wu450)
 - Product Owner: [Xiaohan Zhou](https://github.com/XiaohanZhou711)
 
@@ -40,8 +41,14 @@ Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our team wor
 
 ## Additional Documentation
 
-- UX Design - App map, wireframes, and prototype
-- Sprint Planning
+- UX Design
+    - App map
+    - wireframes & clickable prototype
+    - design documentation: [coming: UX-DESIGN.md]
+- Sprint Planning:
+    - [Product Backlog](https://github.com/orgs/agile-students-fall2025/projects/40/views/1)
+    - [Sprint 0 Backlog](https://github.com/orgs/agile-students-fall2025/projects/40/views/2)
+    - [Sprint 0 Task Board](https://github.com/orgs/agile-students-fall2025/projects/40/views/3)
 
 ## Technology Stack
 
