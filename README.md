@@ -5,7 +5,7 @@ NextQuad is a verified campus community platform that connects NYU students with
 
 ## Team Members
 - **[Polaris Wu](https://github.com/Polaris-Wu450)**
-- **[Member 2](https://github.com/username)**
+- **[Xiaohan Zhou](https://github.com/XiaohanZhou711)**
 - **[Member 3](https://github.com/username)**
 - **[Member 4](https://github.com/username)**
 - **[Member 5](https://github.com/username)**
