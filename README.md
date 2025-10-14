@@ -42,9 +42,10 @@ Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our team wor
 ## Additional Documentation
 
 - UX Design
-    - App map
-    - wireframes & clickable prototype
-    - design documentation: [coming: UX-DESIGN.md]
+    - [App map](https://www.figma.com/board/vTVVOvkRhbJZ5ocEPmNmP4/NextQuad-App-Map?node-id=0-1&t=fsL1fobvha1VcIct-1)
+    - [Wireframes](https://www.figma.com/design/d9sAx6JfiaAR5zUUyGk0eo/NextQuad-Wireframes?node-id=109-2&t=Aa42Mn15EePnCBLQ-1)
+    - [Clickable Prototype](https://www.figma.com/proto/d9sAx6JfiaAR5zUUyGk0eo/NextQuad-Wireframes?node-id=137-198&p=f&t=ibm1yziOkpZqq0B0-1&scaling=min-zoom&content-scaling=fixed&page-id=109%3A2&starting-point-node-id=137%3A198)
+    - [Design documentation](./UX-DESIGN.md)
 - Sprint Planning:
     - [Product Backlog](https://github.com/orgs/agile-students-fall2025/projects/40/views/1)
     - [Sprint 0 Backlog](https://github.com/orgs/agile-students-fall2025/projects/40/views/2)
