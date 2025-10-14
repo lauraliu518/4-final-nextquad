@@ -15,8 +15,8 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 
 - **User Authentication**: Sign up and sign in flows
 - **Dorm Feeds**: Community posts and social interactions within residence halls
-- **Events**: Event discovery, creation, RSVP, check-in, analytics, and post-event surveys
 - **Campus Map**: Interactive campus navigation and location-based features
+- **Events**: Event discovery, creation, RSVP, check-in, analytics, and post-event surveys
 - **Settings**: User preferences, account management, and app configuration
 
 ## Wireframes
@@ -31,9 +31,14 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 **[To be completed]**
 
 
-### 3. Events Section
+### 3. Campus Map Section
 
-#### 3.1 Event Main (Event Discovery)
+**[To be completed]**
+
+
+### 4. Events Section
+
+#### 4.1 Event Main (Event Discovery)
 ![Event Main](ux-design/prototype/NextQuad_Events_Wireframes/Event%20Main.png)
 
 **Purpose**: The main landing page for discovering and browsing campus events.
@@ -47,17 +52,18 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
   - Location
   - RSVP count ("24 going")
   - Category tags
-- Bottom navigation: "My Event" and "Add Event" buttons
+- Bottom navigation: "RSVPS", "My Event" and "Add Event" buttons
 
 **User Interactions**:
 - Tap any event card to view detailed event information
 - Tap category filters to show only events of that type
 - Use search bar to find events by keyword
+- Tap "RSVPS" to view and manage event RSVPs
 - Tap "My Event" to view hosted and attended events
 - Tap "Add Event" to create a new event
 
 
-#### 3.2 Event Detail
+#### 4.2 Event Detail
 ![Event Detail](ux-design/prototype/NextQuad_Events_Wireframes/Event%20Detail.png)
 
 **Purpose**: Display comprehensive information about a specific event and allow users to RSVP.
@@ -71,13 +77,12 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 - Prominent "RSVP TO EVENT" button
 
 **User Interactions**:
-- Scroll to read complete event details (For now one screen contains everything so no need to scroll)
 - Tap "RSVP TO EVENT" to register attendance
 - View host information
-- Navigate back to event list via top navigation
+- Navigate back to event list via bottom navigation
 
 
-#### 3.3 Event RSVP Confirmation
+#### 4.3 Event RSVP Confirmation
 ![Event RSVP](ux-design/prototype/NextQuad_Events_Wireframes/Event%20RSVP.png)
 
 **Purpose**: Confirm successful RSVP registration and provide event reminder.
@@ -95,7 +100,7 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 - Navigate back to browse more events
 
 
-#### 3.4 Event Create
+#### 4.4 Event Create
 ![Event Create](ux-design/prototype/NextQuad_Events_Wireframes/Event%20Create.png)
 
 **Purpose**: Allow users to create and publish new campus events.
@@ -115,32 +120,41 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 - Fill in all required event information fields
 - Select one or more category tags
 - Tap "Publish Event" to create the event
-- Navigate between "My Event" and "Event Main" tabs
+- Navigate among "RSVPS", "My Event" and "Event Main" tabs
 
 
-#### 3.5 My Event (Event Management Dashboard)
-![My Event](ux-design/prototype/NextQuad_Events_Wireframes/My%20Event.png)
+#### 4.5 My Event (Simplified Event Management Dashboard)
+![My Event](ux-design/prototype/NextQuad_Events_Wireframes/My%20Events.png)
 
-**Purpose**: Central dashboard for event organizers to manage their events and track engagement.
+**Purpose**: Quick overview of user's upcoming and past events.
 
 **Key Features**:
 
-- Needs Attention Section: Events requiring immediate action
-    - Action buttons: "Check-ins" and "Take Survey"
 - Upcoming Events: Future events with RSVP counts
     - "View Details" button for each event
 - Past Events:
     - "View Stats" button to see event metrics
 
 **User Interactions**:
-- Tap "Check-ins" to check in to event
-- Tap "Take Survey" to fill in post-event feedback
 - Tap "View Details" for upcoming events
 - Tap "View Stats" to see comprehensive event analytics
-- Tap "Add Event" to create a new event
 
 
-#### 3.6 Event Check In
+#### 4.6 RSVPS (A Complete View of Event Management Dashboard)
+![RSVPS](ux-design/prototype/NextQuad_Events_Wireframes/RSVPS.png)
+
+**Purpose**: Central dashboard for event organizers to manage their events and track engagement.
+
+**Key Features** (More focused on "Attention" section, others remain the same):
+- Needs Attention Section: Events requiring immediate action
+    - Action buttons: "Check-ins" and "Take Survey"
+
+**User Interactions**:
+- Tap "Check-ins" to check in to event
+- Tap "Take Survey" to fill in post-event feedback
+
+
+#### 4.7 Event Check In
 ![Event Check In](ux-design/prototype/NextQuad_Events_Wireframes/Event%20Check%20In.png)
 
 **Purpose**: Allow attendees to check in to events and provide location verification.
@@ -159,14 +173,14 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 - Navigate between "My Event" and "Event Main"
 
 
-#### 3.7 Event Survey (Post-Event Feedback)
+#### 4.8 Event Survey (Post-Event Feedback)
 ![Event Survey](ux-design/prototype/NextQuad_Events_Wireframes/Event%20Survey.png)
 
 **Purpose**: Collect feedback from attendees after event completion.
 
 **Key Features**:
 
-- Survey Questions: Overall Rating, Multi-select checkboxes, etc.
+- Survey Questions: Overall Rating, Comments, etc.
 - Action Buttons:
     - "Submit Feedback" button (primary action)
     - "Skip for now" link (secondary action)
@@ -176,10 +190,10 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 - Select multiple aspects that were enjoyed
 - Choose likelihood of future attendance
 - Provide optional written feedback
-- Submit survey or skip to complete later
+- Submit survey or skip to complete later (direct back to event main)
 
 
-#### 3.8 Event Analytics
+#### 4.9 Event Analytics
 ![Event Analytics](ux-design/prototype/NextQuad_Events_Wireframes/Event%20Analytics.png)
 
 **Purpose**: Provide event organizers with comprehensive metrics and insights about their event's performance.
@@ -199,29 +213,6 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 - Navigate to detailed insights
 
 
-### Events Section User Flows:
-
-1. **Browse & RSVP Flow**:
-   Event Main → Event Detail → Event RSVP Confirmation
-
-2. **Create Event Flow**:
-   Event Main → Event Create → Event Main (with new event published)
-
-3. **Manage Events Flow**:
-   My Event → Event Analytics/Check-ins/Survey Review
-
-4. **Attend Event Flow**:
-   My Event → Event Check In → Show QR Code
-
-5. **Post-Event Flow**:
-   My Event → Event Survey → Submit Feedback → Event Analytics
-
-
-### 4. Campus Map Section
-
-**[To be completed]**
-
-
-### 5. Settings Section
+### 5. Profile/Settings Section
 
 **[To be completed]**
