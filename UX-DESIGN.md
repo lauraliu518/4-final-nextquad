@@ -141,7 +141,7 @@ The app map illustrates the hierarchical structure and navigation flow of the Ne
 
 
 #### 4.6 RSVPS (A Complete View of Event Management Dashboard)
-![RSVPS](ux-design/prototype/NextQuad_Events_Wireframes/RSVPS.png)
+![RSVPS](ux-design/prototype/NextQuad_Events_Wireframes/RSVPs.png)
 
 **Purpose**: Central dashboard for event organizers to manage their events and track engagement.
 
